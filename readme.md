@@ -7,7 +7,7 @@
     php artisan key:generate
     
 3. Change the folder permisstion<br>  
-    chgrp -R apache storage bootstrap/cache
+    chgrp -R apache storage bootstrap/cache<br>
     chmod -R ug+rwx storage bootstrap/cache
 
 

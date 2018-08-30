@@ -1,12 +1,12 @@
 ## STEPS
 
-1. Clone the code
+1. Clone the code <br>
     git clone https://alexjkd@github.com/alexjkd/laravel_acs.git
 
-2. Generage a application key
+2. Generage a application key<br>
     php artisan key:generate
     
-3. Change the folder permisstion  
+3. Change the folder permisstion<br>  
     chgrp -R apache storage bootstrap/cache
     chmod -R ug+rwx storage bootstrap/cache
 
